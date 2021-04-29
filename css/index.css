@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    background: url("https://source.unsplash.com/1600x900/?food") no-repeat center center fixed;
+    background-size: cover;
+    
+}
+.container{
+    /* border: 3px solid red; */
+    color: black;
+    position: absolute;
+    top: 25%;
+    left: 18%;
+    box-sizing: border-box;
+    color:red
+}
+.container h1{
+    margin-bottom: 10px;
+    border-bottom:3px solid red;
+    padding: 10px 0px;
+    display: inline-block;
+    
+}
+.box{
+    width: 100%;
+    border-bottom:3px solid red;
+    margin: 10px 0px;
+}
+.box input{
+    background: none;
+    width: 70%;
+    border:none;
+    outline: none;
+    margin: 6px;
+    height: 20px;
+    font-size: larger;
+    font-weight: 700;
+    padding: 5px 10px;
+    color: red;
+    
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    width: 30%;
+    margin: 7px 0px;
+    padding: 5px 0px;
+    font-size: larger;
+    border-radius: 6px;
+    /* border: 2px solid rgb(227, 236, 227); */
+    border: none;
+    background: none;
+    color:red;
+    font-weight: bolder;
+}
+.btn:hover{
+    color: greenyellow;
+    /* opacity: 0.5; */
+}
+.box i{
+    padding: 3px;
+}
+#signup{
+    text-decoration: none;
+
+}
+input {
+    color: red;
+}

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .foot{
+     background-color:#aca9a9!important;
+     color: white;
+     padding: 10px 20px;
+     font-size: 20px;
+     text-align: center;
+}
+    </style>
+
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <title>Server Message</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="localhost:1010/app02/">OnlineMeal</a>
+            <form class="d-flex" action="/app02/searchServlet" method="POST">
+                <input class="form-control me-2" type="search" placeholder="Enter Location" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <h3 class="foot">Welcome to registration in OnlineMeal</h3>
+    <form action="/app02/registerServlet" method="POST">
+        <div class="form-group my-3">
+          <label for="exampleInputEmail1">Restaurant Name</label>
+          <input type="text" name="restName" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name">
+          
+        </div>
+        <div class="form-group my-2">
+          <label for="exampleInputPassword1">Address</label>
+          <input type="text" name="restAddress" class="form-control" id="exampleInputPassword1" placeholder="Enter Address">
+        </div>
+        <div class="form-group my-2">
+            <label for="exampleInputPassword1">Delivery fee</label>
+            <input type="number" name="restFee" class="form-control" id="exampleInputPassword1" placeholder="Enter Fee">
+          </div>
+          <div class="form-group my-2">
+            <label for="exampleInputPassword1">City </label>
+            <input type="text" name="restCity" class="form-control" id="exampleInputPassword1" placeholder="Enter City">
+          </div>
+          <div class="form-group my-2">
+            <label for="exampleInputPassword1">PhoneNumber</label>
+            <input type="text" name="restPhone" class="form-control" id="exampleInputPassword1" placeholder="Enter Phone">
+          </div>
+          <div class="form-group my-2">
+            <label for="exampleInputPassword1">Email</label>
+            <input type="text" name="restEmail" class="form-control" id="exampleInputPassword1" placeholder="Enter Email">
+          </div>
+          
+        
+        <button type="submit" class="btn btn-primary my-2 mx-2">Submit</button>
+      </form>
+    <h3 class="foot">Thank You</h3>
+    
+
+    <footer class="foot">
+        <div class="center">
+            Copyright &copy; www.myOnlineMeal.com All Right Reserve!
+        </div>
+    </footer>
+</body>
+</html>

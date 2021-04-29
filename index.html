@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best online meals services in india|Myonlinemeals.com</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Bree+Serif&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" media="screen and (max-width:690px)"href="css/phone.css">
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.jpg" alt="not loaded image">
+            <ul>
+                <li class="item"><a href="#home">Home</a></li>
+                <li class="item"><a href="#services">Services</a></li>
+                <li class="item"><a href="#client-section">About Us</a></li>
+                <li class="item"><a href="#contact">Contact Us</a></li>
+                <li class="item"><a href="login.html">Log In</a></li>
+
+            </ul>
+            <form action="/app02/searchServlet" method="POST">
+                <input type="text" name="searchString" id="search01" placeholder="Enter Location">
+                <button type="submit" id="fbtn">Search</button>
+            </form>
+
+        </div>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to Myonlinemeals</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, asperiores omnis amet aliquid sequi
+            doloremque fugiat enim doloribus vitae aut.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam temporibus animi aut quasi iste sed atque
+            voluptates pariatur voluptatum repudiandae!</p>
+       <form action="register.html" method="get">
+
+           <button type="submit" class="btn" id="btn01">
+           Register Restaurant
+           </button>
+       </form>
+
+    </section>
+    <section class="services">
+        <h1 class="h-primary center">
+            Our Services
+        </h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/1.png" alt="not loaded">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia possimus sequi, perspiciatis exercitationem nisi fugiat impedit dicta, repellat, magni unde neque natus? Similique, tenetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed qui reiciendis modi perferendis. Molestias quam, corrupti aliquid debitis nesciunt accusamus harum vel architecto porro recusandae cupiditate ut cumque omnis sapiente magni excepturi illum! Nobis. neque.</p>
+            </div>
+            
+            
+            <div class="box">
+                <img src="img/3.png" alt="not loaded">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia possimus sequi, perspiciatis exercitationem nisi fugiat impedit dicta, repellat, magni unde neque natus? Similique, tenetur Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum dolor a fuga, corrupti distinctio omnis. Esse ratione magni, ab iure nihil suscipit itaque a molestias iste illo fugit? Magnam doloribus delectus aperiam rerum eligendi. neque.</p>
+            </div>
+            <div class="box">
+                <img src="img/2.png" alt="not loaded">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia po Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, hic iusto cumque ad fuga nesciunt debitis architecto veniam temporibus. Ullam enim, ad, est eum earum corrupti iusto inventore, modi debitis eligendi autem at nulla! Explicabo! tenetur neque.</p>
+            </div>
+            
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">
+            Our Clients
+        </h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="img/logo1.png" alt="not loaded">
+            </div>
+            <div class="client-item">
+                <img src="img/logo2.png" alt="not loaded">
+            </div>
+            <div class="client-item">
+                <img src="img/logo3.png" alt="not loaded">
+            </div>
+            <div class="client-item">
+                <img src="img/logo4.png" alt="not loaded">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="/app02/contactServlet" method="POST">
+                <div class="form-group">
+                    <label for="name">Name :</label>
+                    <input type="text" name="name" id="name" placeholder="enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number :</label>
+                    <input type="number" name="phone" id="phone" placeholder="enter your Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" name="email" id="email" placeholder="enter your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message :</label>
+                    <br>
+                    <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="submit" class="btn">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.myOnlineMeal.com All Right Reserve!
+        </div>
+    </footer>
+</body>
+
+</html>
